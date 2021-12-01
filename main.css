@@ -1,0 +1,56 @@
+body{
+    background-color: lime;
+    
+}
+
+
+#HomePageHeader {
+    font-family: 'comic-sans';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid blueviolet;
+    
+}
+
+.centerElement{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+img{
+    
+    border-bottom: 4px dashed gray;
+    border: 3px solid black;
+    margin-top: 40px; 
+    margin-bottom: 40px;
+
+}
+
+p{
+    background-color: cyan;
+    font-size: larger;
+}
+
+
+button {
+
+    color: green;
+   
+    text-align: center;
+    border:20px solid cyan;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 0;
+    position: center;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+
+}
